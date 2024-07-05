@@ -1,3 +1,19 @@
+# Starting Out
+As a beginner in information security, it can be extremely daunting to know where to start. There are many great resources out there for beginners, including free and paid training, purposefully vulnerable machines and labs, tutorial websites, blogs, YouTube channels, etc.
+
+# Resources
+When starting, the sheer amount of content available on the web can be overwhelming. Furthermore, it isn't easy to know where to start and the quality of materials available.
+
+## Vulnerable Machines/Applications
+There are many resources available to practice common web and network vulnerabilities in a safe, controlled setting. The following are some examples of purposefully vulnerable web applications and vulnerable machines that we can set up in a lab environment for extra practice.
+
+| Name             | Description                                                                                                                                                                           |
+| -------------    |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| OWASP Juice Shop | Is a modern vulnerable web application written in Node.js, Express, and Angular which showcases the entire OWASP Top Ten along with many other real-world application security flaws. |
+| Metasploitable 2 | Is a purposefully vulnerable Ubuntu Linux VM that can be used to practice enumeration, automated, and manual exploitation.                                                            |
+| Metasploitable 3 | Is a template for building a vulnerable Windows VM configured with a wide range of vulnerabilities.                                                                                   | 
+| DVWA             | This is a vulnerable PHP/MySQL web application showcasing many common web application vulnerabilities with varying degrees of difficulty.                                             | 
+
 # Transferring Files
 During any penetration test exercise, it is likely that we will need to transfer files to a remote server, such as enumeration scripts or exploits, or transfer data back to our attack host.
 
