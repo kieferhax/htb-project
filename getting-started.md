@@ -14,6 +14,18 @@ There are many resources available to practice common web and network vulnerabil
 | Metasploitable 3 | Is a template for building a vulnerable Windows VM configured with a wide range of vulnerabilities.                                                                                   | 
 | DVWA             | This is a vulnerable PHP/MySQL web application showcasing many common web application vulnerabilities with varying degrees of difficulty.                                             | 
 
+It is worth learning how to set these up in your lab environment to gain extra practice setting up VMs and working with common configurations such as setting up a web server. Aside from these vulnerable machines/applications, we can also set up many machines and applications in a lab environment to practice configuration, enumeration/exploitation, and remediation.
+
+## YouTube Channels
+There are many YouTube channels out there that showcase penetration testing/hacking techniques. A few worth bookmarking are:
+
+| Name         | Description                                                                                                                                                  |
+| -------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| IppSec       | Provides an extremely in-depth walkthrough of every retired HTB box packed full of insight from his own experience, as well as videos on various techniques. |
+| VbScrub      | Provides HTB videos as well as videos on techniques, primarily focusing on Active Directory exploitation.                                                    |
+| STÖK         | Provides videos on various infosec related topics, mainly focusing on bug bounties and web application penetration testing.                                  | 
+| LiveOverflow | Provides videos on a wide variety of technical infosec topics.                                                                                               | 
+
 # Transferring Files
 During any penetration test exercise, it is likely that we will need to transfer files to a remote server, such as enumeration scripts or exploits, or transfer data back to our attack host.
 
