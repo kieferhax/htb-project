@@ -8,7 +8,7 @@ There are many methods to accomplish this. One method is running a Python HTTP s
 
 First we go into the directory that contains the file we need to transfer and run a Python HTTP server in it.
 
-`kieferhax@htb[/htb]$ cd /tmp`
-`kieferhax@htb[/htb]$ python3 -m http.server 8000`
-`                                                `
-`Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)`
+`kieferhax@htb[/htb]$ cd /tmp`/
+`kieferhax@htb[/htb]$ python3 -m http.server 8000`/
+`                                                `/
+`Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)`/
